@@ -1,0 +1,6 @@
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\bin\Debug\MyEvernoteEntities.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\bin\Debug\MyEvernoteEntities.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\obj\Debug\MyEvernoteEntities.csprojAssemblyReference.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\obj\Debug\MyEvernoteEntities.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\obj\Debug\MyEvernoteEntities.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteEntities\obj\Debug\MyEvernoteEntities.pdb

@@ -1,0 +1,16 @@
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\MyEvernoteDataAccessLayer.dll.config
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\MyEvernoteDataAccessLayer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\MyEvernoteDataAccessLayer.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\FakeData.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\MyEvernoteEntities.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\MyEvernoteEntities.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\bin\Debug\FakeData.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\obj\Debug\MyEvernoteDataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\obj\Debug\MyEvernoteDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\obj\Debug\MyEvernoteDataAccessLayer.csproj.CopyComplete
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\obj\Debug\MyEvernoteDataAccessLayer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\MyEvernoteSolution\MyEvernoteDataAccessLayer\obj\Debug\MyEvernoteDataAccessLayer.pdb
