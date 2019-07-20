@@ -1,0 +1,18 @@
+﻿@using BusinessLayer;
+@using Entities;
+
+@{
+    KategoriYonetim cm = new KategoriYonetim();
+    List<Kategori> list = cm.Listeleme();
+}
+
+
+<h1 class="my-4">Kategoriler</h1>
+<div class="list-group">
+
+    @foreach (Kategori cat in list)
+    {
+        <a href="/Home/KategorikListe/@cat.id" title="@cat.Baslik" class="list-group-item" style="color:lightslategray">@cat.Baslik</a>
+    }
+
+</div>

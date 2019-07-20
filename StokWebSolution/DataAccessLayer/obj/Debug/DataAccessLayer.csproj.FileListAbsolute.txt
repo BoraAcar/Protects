@@ -1,0 +1,17 @@
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\Entities.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\FakeData.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\Entities.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\Entities.dll.config
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\bin\Debug\FakeData.pdb
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Lenovo Thinkpad S440\source\repos\StokWebSolution\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

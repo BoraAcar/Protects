@@ -1,0 +1,59 @@
+﻿@using Entities;
+@model Urun
+
+
+@{
+    ViewBag.Title = "Guncelle";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<br />
+
+<h2>Güncelleme Ekranı</h2>
+<br />
+
+
+@using (Html.BeginForm())
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Ürün Bilgileri</h5>
+                <p style="font-family:Arial">
+                    id:@Model.id <br /><br />
+                    Kategori:@Model.Kategori.Baslik <br /><br />
+                    Kategori id:@Model.Kategori.id <br /><br />
+                    Ürün adı:@Model.Urun_Adi <br /><br />
+                    Müsteri id:@Model.Musteri.id <br /><br />
+                    Müsteri Adı:@Model.Musteri.Ad_Soyad <br /><br />
+                    Müsteri Adres:@Model.Musteri.Adres <br /><br />
+                    Müsteri Tel No:@Model.Musteri.Tel_No <br /><br />
+                    Adedi:@Model.Miktar <br /><br />
+                    Fiyatı:@Model.Fiyat <br /><br />
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <h5>Değiştirilebilecek yeni bilgileri girin</h5>
+                <p style="font-size:small">Ürün Adı</p> @Html.TextBoxFor(model => model.Urun_Adi, new { @class = "form-control", placeholder = "yeni ad" }) <br />
+                <p style="font-size:small">Ürün Miktarı</p>@Html.TextBoxFor(model => model.Miktar, new { @class = "form-control", placeholder = "yeni miktar" }) <br />
+                <p style="font-size:small">Ürün Fiyatı</p>@Html.TextBoxFor(model => model.Fiyat, new { @class = "form-control", placeholder = "yeni fiyat" }) <br />
+                @Html.HiddenFor(model => model.id, new { @class = "form-control", placeholder = "yeni id" })
+                @Html.HiddenFor(model => model.Kategori.id, new { @class = "form-control", placeholder = "yeni kategori_id" }) <br />
+                @Html.HiddenFor(model => model.Musteri.id, new { @class = "form-control", placeholder = "Musteri yeni id" }) <br />
+                @Html.HiddenFor(model => model.Musteri.Ad_Soyad, new { @class = "form-control", placeholder = "yeni musteri" }) <br />
+                @Html.HiddenFor(model => model.Musteri.Adres, new { @class = "form-control", placeholder = "yeni musteri adresi" }) <br />
+                @Html.HiddenFor(model => model.Musteri.Tel_No, new { @class = "form-control", placeholder = "yeni musteri Tel no" }) <br />
+                @Html.HiddenFor(model => model.Kategori.Baslik, new { @class = "form-control", placeholder = "yeni kategori" }) <br />
+                <button href="/Home/Guncelle" type="submit" class="btn btn-danger btn-lg btn-block login-button">Guncelle</button>
+
+            </div>
+        </div>
+    </div>
+}
+
+

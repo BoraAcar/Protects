@@ -1,0 +1,59 @@
+﻿@using Entities;
+@model List<Urun>
+
+
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+
+                @Html.Partial("_PartialKategoriler")
+
+                <br /><br />
+
+                <a href="/Home/UrunKayit" type="button" class="btn btn-success">Yeni Ürün Kaydı</a>
+                <a href="/Home/MusteriSil" type="button" class="btn btn-danger">Müşteri Sil</a>
+
+            </div>
+
+            <div class="col-lg-9">
+
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <br />
+                            <div class="card h-100">
+                                <a href="#"><img class="card-img-top" src="~/Resim/stok.png" alt="@item.Kategori"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <p style="font-size:small;color:dodgerblue">
+                                            Kategorisi: @item.Kategori.Baslik <br />
+                                            Ürün Numarası: @item.id <br />
+                                            Ürün Adı: @item.Urun_Adi <br />
+                                            Miktarı: @item.Miktar
+                                        </p>
+                                    </h4>
+                                    <h5>@item.Fiyat TL</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/Home/Sil/@item.id" type="button" class="btn btn-danger btn-sm" >Sil</a>
+                                    <a href="/Home/Guncelle/@item.id" type="button" class="btn btn-info btn-sm">Güncelle</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
